@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quick Learn</string>
+    <string name="title_activity_physics">Physics</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_biology">Biology</string>
+    <string name="quick_revise">Quick revise</string>
+    <string name="social">Social</string>
+    <string name="astronomy">Astronomy</string>
+    <string name="biology">Biology</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="physics">Physics</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="question">Question</string>
+    <string name="feedback">Feedback</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="memorivise_easly">Memorivise Easly</string>
+    <string name="welcome_students">Welcome Students</string>
+    <string name="learn_and_memorise_easily_with_fun">\'Learn and Memorise easily with fun!\'</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="about">About</string>
+    <string name="study_materials">Study materials</string>
+    <string name="drawer_layout_description">drawer_layout_description</string>
+    <string name="short_description">Short Description</string>
+    <string name="english">English</string>
+    <string name="math">Math</string>
+    <string name="about_app">About App</string>
+    <string name="made_by_raushan_pandit">Made by Raushan Pandit</string>
+    <string name="it_is_made_for_enhance_the_knowledge_of_students_through_a_cool_method">It is made for enhance the knowledge of students through a cool method</string>
+    <string name="contact_me">Contact Me:</string>
+    <string name="made_by">Made by</string>
+    <string name="raushan_pandit">Raushan Pandit</string>
+</resources>

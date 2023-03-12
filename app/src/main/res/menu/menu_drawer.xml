@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/dashboard"
+        android:icon="@drawable/ic_action_dashboard"/>
+
+    <item
+        android:id="@+id/materials"
+        android:title="@string/study_materials"
+        android:icon="@drawable/ic_action_study"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_action_about"/>
+
+</menu>

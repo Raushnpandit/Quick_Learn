@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_layout"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/made"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/made_by"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/made"
+        android:gravity="center"
+        android:text="@string/raushan_pandit"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_below="@id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/it_is_made_for_enhance_the_knowledge_of_students_through_a_cool_method"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_below="@id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/contact_me"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/facebook_icon"
+        android:layout_below="@+id/contact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/vv"/>
+
+    <ImageView
+        android:id="@+id/linked_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/facebook_icon"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/nn" />
+
+    <ImageView
+        android:id="@+id/git_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/linked_icon"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/gg" />
+
+    <ImageView
+        android:id="@+id/gmail_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/git_icon"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/mm" />
+
+
+
+</RelativeLayout>
